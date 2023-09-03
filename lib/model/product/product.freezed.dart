@@ -20,9 +20,9 @@ Product _$ProductFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Product {
-  int? get id => throw _privateConstructorUsedError;
+  num? get id => throw _privateConstructorUsedError;
   String? get title => throw _privateConstructorUsedError;
-  double? get price => throw _privateConstructorUsedError;
+  num? get price => throw _privateConstructorUsedError;
   String? get description => throw _privateConstructorUsedError;
   String? get category => throw _privateConstructorUsedError;
   String? get image => throw _privateConstructorUsedError;
@@ -39,9 +39,9 @@ abstract class $ProductCopyWith<$Res> {
       _$ProductCopyWithImpl<$Res, Product>;
   @useResult
   $Res call(
-      {int? id,
+      {num? id,
       String? title,
-      double? price,
+      num? price,
       String? description,
       String? category,
       String? image,
@@ -73,7 +73,7 @@ class _$ProductCopyWithImpl<$Res, $Val extends Product>
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as num?,
       title: freezed == title
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
@@ -81,7 +81,7 @@ class _$ProductCopyWithImpl<$Res, $Val extends Product>
       price: freezed == price
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
-              as double?,
+              as num?,
       description: freezed == description
           ? _value.description
           : description // ignore: cast_nullable_to_non_nullable
@@ -110,9 +110,9 @@ abstract class _$$_ProductCopyWith<$Res> implements $ProductCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int? id,
+      {num? id,
       String? title,
-      double? price,
+      num? price,
       String? description,
       String? category,
       String? image,
@@ -141,7 +141,7 @@ class __$$_ProductCopyWithImpl<$Res>
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as num?,
       title: freezed == title
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
@@ -149,7 +149,7 @@ class __$$_ProductCopyWithImpl<$Res>
       price: freezed == price
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
-              as double?,
+              as num?,
       description: freezed == description
           ? _value.description
           : description // ignore: cast_nullable_to_non_nullable
@@ -186,11 +186,11 @@ class _$_Product implements _Product {
       _$$_ProductFromJson(json);
 
   @override
-  final int? id;
+  final num? id;
   @override
   final String? title;
   @override
-  final double? price;
+  final num? price;
   @override
   final String? description;
   @override
@@ -242,9 +242,9 @@ class _$_Product implements _Product {
 
 abstract class _Product implements Product {
   const factory _Product(
-      {final int? id,
+      {final num? id,
       final String? title,
-      final double? price,
+      final num? price,
       final String? description,
       final String? category,
       final String? image,
@@ -253,11 +253,11 @@ abstract class _Product implements Product {
   factory _Product.fromJson(Map<String, dynamic> json) = _$_Product.fromJson;
 
   @override
-  int? get id;
+  num? get id;
   @override
   String? get title;
   @override
-  double? get price;
+  num? get price;
   @override
   String? get description;
   @override

@@ -11,7 +11,7 @@ class ScreenSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     // set size variable in the const file
     size = MediaQuery.of(context).size;
-    Timer(const Duration(milliseconds: 0), () {
+    Timer(const Duration(milliseconds: 2500), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -19,7 +19,7 @@ class ScreenSplash extends StatelessWidget {
           ));
     });
     return Scaffold(
-      backgroundColor: appbarPrimaryColor,
+      backgroundColor: appbarSecondaryColor,
       body: Center(
         child: SizedBox(
           height: size.width * 0.40,

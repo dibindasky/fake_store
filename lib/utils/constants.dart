@@ -7,3 +7,6 @@ const appbarSecondaryColor= Colors.amber;
 
 final kRadius10 = BorderRadius.circular(10);
 
+const kheight10=SizedBox(height: 10,);
+const kwidth10=SizedBox(width: 10,);
+

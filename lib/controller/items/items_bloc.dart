@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:fake_store/services/api_calls.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../../model/product.dart';
+import '../../model/product/product.dart';
 
 part 'items_event.dart';
 part 'items_state.dart';

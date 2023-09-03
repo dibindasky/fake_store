@@ -5,9 +5,9 @@ part 'product.g.dart';
 @freezed
 class Product with _$Product {
   const factory Product(
-      {int? id,
+      {num? id,
       String? title,
-      double? price,
+      num? price,
       String? description,
       String? category,
       String? image,
@@ -18,8 +18,8 @@ class Product with _$Product {
 }
 
 class Rating {
-  double? rate;
-  int? count;
+  num? rate;
+  num? count;
 
   Rating({this.rate, this.count});
 
