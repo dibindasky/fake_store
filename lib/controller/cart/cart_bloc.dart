@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fake_store/services/api_calls.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
@@ -25,6 +25,8 @@ class CartBloc extends Bloc<CartEvent, CartState> {
       await api.addNewProductToCart(event.id);
       return;
     });
+
+    on<UpdateQuantityCartEvent>((event, emit) => null);
 
     on<UpdateQuantityCartEvent>((event, emit) async{
       await api.updateQuantityOfCartProduct(event.id);

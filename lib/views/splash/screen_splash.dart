@@ -11,7 +11,7 @@ class ScreenSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     // set size variable in the const file
     size = MediaQuery.of(context).size;
-    Timer(const Duration(milliseconds: 2500), () {
+    Timer(const Duration(milliseconds: 2000), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(

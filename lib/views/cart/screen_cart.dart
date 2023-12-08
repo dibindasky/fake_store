@@ -29,6 +29,8 @@ class ScreenCart extends StatelessWidget {
             ),
             loaded: (cart) => Column(
               children: [
+                // BlocConsumer(builder: builder, listener: listener)
+                // BlocListener<CartBloc,CartState>(listener: (context, state) => ,),
                 ListView.separated(
                     shrinkWrap: true,
                     itemBuilder: (context, index) {
