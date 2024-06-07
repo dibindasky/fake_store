@@ -17,7 +17,7 @@ class Url{
   String addToCart='/carts';
 
   String getCart='/carts';
-  String getSingleCart = '/carts/5';    // use id in the end eg - https://fakestoreapi.com/carts/5
+  String getSingleCart = '/carts/1';    // use id in the end eg - https://fakestoreapi.com/carts/5
 
   String updateCartItem ='/carts/7';  // use id in the end eg - https://fakestoreapi.com/carts/7
 
